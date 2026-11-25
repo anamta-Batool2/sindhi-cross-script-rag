@@ -1,0 +1,22 @@
+A. Question writing (test set)
+A question is answerable only if the paragraph states the answer explicitly.
+The gold answer is a short span copied from the paragraph.
+Every question has an Arabic-script version and a Roman-script version with the same meaning. The Roman version is written the way people type on a phone; spelling is not standardised.
+Unanswerable questions must be plausible and on the same topic as the paragraph, but the paragraph must not answer them.
+Each question gets exactly one topic: history_culture, geography, science or health.
+B. Faithfulness labelling (100 generated answers)
+
+Each item shows a question, the retrieved context and the system answer. Choose one label.
+
+Judge only against the retrieved context. Do not use outside knowledge, even if the answer is true in the real world.
+FAITHFUL: every claim in the system answer is supported by the retrieved context.
+HALLUCINATED: at least one claim is not in the context or contradicts it. If part is supported and part is not, choose HALLUCINATED.
+Numbers, names, dates and places must match the context exactly. Ignore grammar and spelling mistakes; judge meaning only.
+If unsure, choose HALLUCINATED and explain in the notes column. ABSTAINED is only for answers saying the information is not available.
+Work alone; do not look at the other annotator's labels.
+
+Agreement between the two annotators: 89% observed, Cohen's kappa = 0.78 (n = 100).
+
+C. Error categories (System C, 76 errors)
+
+Retrieval miss; Wrong span; Answered unanswerable; Abstained wrongly; Number/date/name changed; Garbled / non-Sindhi output; Partial match / format.
