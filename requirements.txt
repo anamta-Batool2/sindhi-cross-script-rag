@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+openpyxl
+datasets
+rank_bm25
+sentence-transformers
+transformers
+accelerate
+torch
