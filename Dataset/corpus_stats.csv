@@ -1,0 +1,3 @@
+﻿split,documents,paragraphs,avg_words
+dev,69,260,105.6
+test,162,1021,100.9
