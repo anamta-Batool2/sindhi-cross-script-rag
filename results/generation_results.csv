@@ -1,0 +1,8 @@
+system,mode,n_runs,Acc_answerable,F1_answerable,Abstain_acc_unans,Halluc_unans,Unsupported_rate,Abstain_rate_answerable
+A: BM25 + Arabic query,zero-shot,1,0.504,0.427,0.241,0.759,0.106,0.017
+A: BM25 + Arabic query,few-shot,3,0.562 ± 0.024,0.497 ± 0.020,0.322 ± 0.033,0.678 ± 0.033,0.124 ± 0.022,0.033 ± 0.000
+B: BM25 + Roman query,zero-shot,1,0.066,0.059,0.586,0.414,0.036,0.645
+B: BM25 + Roman query,few-shot,3,0.077 ± 0.004,0.065 ± 0.001,0.828 ± 0.049,0.172 ± 0.049,0.127 ± 0.047,0.780 ± 0.008
+C: Skeleton + Roman query (ours),zero-shot,1,0.388,0.325,0.448,0.552,0.125,0.140
+C: Skeleton + Roman query (ours),few-shot,3,0.452 ± 0.004,0.411 ± 0.002,0.575 ± 0.071,0.425 ± 0.071,0.095 ± 0.015,0.176 ± 0.014
+"D: C + faithfulness check (ours, full)",few-shot,3,0.085 ± 0.004,0.073 ± 0.004,0.943 ± 0.016,0.057 ± 0.016,0.000 ± 0.000,0.906 ± 0.004

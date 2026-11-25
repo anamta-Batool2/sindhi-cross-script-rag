@@ -1,0 +1,7 @@
+system,query,R@1,R@3,R@5,R@10,MRR,latency_s_per_query
+BM25,Arabic script,0.841,0.963,0.963,0.971,0.896,0.0091
+BM25,Roman Sindhi,0.082,0.127,0.143,0.155,0.107,0.0152
+e5-base,Arabic script,0.767,0.906,0.927,0.947,0.838,0.0014
+e5-base,Roman Sindhi,0.127,0.229,0.269,0.322,0.185,0.0016
+Skeleton-BM25 (ours),Arabic script,0.824,0.931,0.959,0.967,0.88,0.003
+Skeleton-BM25 (ours),Roman Sindhi,0.702,0.869,0.902,0.931,0.79,0.0031

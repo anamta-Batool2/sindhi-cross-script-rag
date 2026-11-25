@@ -1,0 +1,11 @@
+variant,query,R@1,R@3,R@5,R@10,MRR
+Full: skeleton + dense (RRF),Arabic,0.816,0.955,0.98,0.992,0.888
+- fusion (skeleton only),Arabic,0.824,0.931,0.959,0.967,0.88
+- skeleton (plain BM25 + dense RRF),Arabic,0.833,0.955,0.98,0.988,0.893
+- skeleton - fusion (plain BM25),Arabic,0.841,0.963,0.963,0.971,0.896
+dense only (e5),Arabic,0.767,0.906,0.927,0.947,0.838
+Full: skeleton + dense (RRF),Roman,0.608,0.82,0.882,0.922,0.716
+- fusion (skeleton only),Roman,0.702,0.869,0.902,0.931,0.79
+- skeleton (plain BM25 + dense RRF),Roman,0.09,0.204,0.253,0.327,0.163
+- skeleton - fusion (plain BM25),Roman,0.082,0.127,0.143,0.155,0.107
+dense only (e5),Roman,0.127,0.229,0.269,0.322,0.185

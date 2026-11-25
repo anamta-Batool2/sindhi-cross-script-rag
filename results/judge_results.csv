@@ -1,0 +1,5 @@
+judge,macro_F1,seconds,gpu
+TF-IDF char n-gram + LR (5-fold CV),0.516 ± 0.041,15.9,False
+XLM-R base fine-tuned (5-fold CV),0.406 ± 0.094,637.8,True
+Qwen2.5-3B zero-shot judge,0.509,32.8,True
+Token-support proxy (no training),0.466,0.0,False

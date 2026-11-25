@@ -1,0 +1,5 @@
+topic,A: BM25 + Arabic query,B: BM25 + Roman query,C: Skeleton + Roman query (ours),"D: C + faithfulness check (ours, full)"
+geography,0.432,0.378,0.486,0.378
+health,0.333,0.333,0.5,0.333
+history_culture,0.565,0.141,0.457,0.196
+science,0.6,0.2,0.733,0.2
